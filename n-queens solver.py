@@ -110,7 +110,7 @@ def show_sol():
                 m.update()
 
                 if solution[i][j][k] == 1:
-                    canvas.itemconfig(solution_instance[j][k], text='Q')
+                    canvas.itemconfig(solution_instance[j][k], text='✨')
                 else:
                     canvas.itemconfig(solution_instance[j][k], text='')
 
